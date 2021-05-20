@@ -1,0 +1,35 @@
+./bin
+
+# Bazel
+.bazelrc-buildkite
+.bazelrc-cache
+/bazel-*
+
+# Buildkite
+.dbk_token
+
+# Expo
+.expo/
+
+# Ignore backup files.
+*~
+# Ignore Vim swap files.
+.*.swp
+
+# IntelliJ
+.ijwb
+.idea
+
+# OS X
+.DS_Store
+
+# Typescript
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+.node_modules/
+package-lock.json
+js/*.map
+js/ts.js
+.jest/

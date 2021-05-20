@@ -1,0 +1,9 @@
+package(default_visibility = ["//visibility:public"])
+
+load("@build_bazel_rules_nodejs//:index.bzl", "js_library")
+
+js_library(
+    name = "math",
+    package_name = "@missao/math",
+    srcs = ["index.js"],
+)
