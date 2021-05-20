@@ -33,5 +33,5 @@ container_push(
    format = "Docker",
    registry = "missao.azurecr.io",
    repository = "missao/bazel-hello-world",
-   tag = "test4",
+   tag = "test",
 )
