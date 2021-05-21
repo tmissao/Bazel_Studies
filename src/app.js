@@ -8,7 +8,7 @@ const health = require('./api/health/router');
 
 const run = () => {
     console.log(`Hello ${process.env.name},\n Welcome to Bazel !`)
-    console.log(`secret: ${process.env.secret}`)
+    console.log(`secrets: ${process.env.secret}`)
     console.log(`add: ${math.add(1,2)}`)
     console.log(`sub: ${math.subtract(1,2)}`)
     console.log(`concat: ${utils.concat(['a', 'b', 'c', 'd', 'e'])}`)
